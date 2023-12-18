@@ -19,3 +19,26 @@
 .qs-box:hover .qs-icon-box{
     display: block;
 }
+.line-2 {
+    transform: translate(0px, -2px) rotate(0deg);
+}
+.close-btn-box:hover .line-1 {
+    transform: translate(0px, 4px) rotate(15deg);
+    background-color: white;
+}
+.close-btn-box:hover .line-2 {
+    transform: translate(0px, 0px) rotate(-15deg);
+    background-color: white;
+}
+
+/* .left-box.new-bg::after {
+    background: red;
+} */
+.left-box .after-element {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004f;
+}
+
