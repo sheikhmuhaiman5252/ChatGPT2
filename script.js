@@ -37,4 +37,3 @@ $('.close-btn-box').click(function () {
     });
   }
 });
-
